@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1678816490631' stop='1678816511559'>
+    <name>Pesquisa de artigos:</name>
+    <title>Pesquisa de artigos:</title>
+    <test-cases>
+        <test-case start='1678816499342' status='failed' stop='1678816504086'>
+            <name>Pesquisar artigos com palavra-chave</name>
+            <title>Pesquisar artigos com palavra-chave</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678816501227' status='passed' stop='1678816504085'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='38b8f89f-b82a-4b75-bc8f-1f7de4143642-attachment.png' type='image/png' size='1299337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>text is not defined</message>
+                <stack-trace>ReferenceError: text is not defined
+                    at Object.searchFor (C:\Users\digit\Downloads\agibankblog\pages\search_page.js:11:42)
+                    at MetaStep.run (C:\Users\digit\Downloads\agibankblog\node_modules\codeceptjs\lib\step.js:285:21)
+                    at Test.&lt;anonymous> (C:\Users\digit\Downloads\agibankblog\steps\search_test.js:10:15)
+                    at test.fn (C:\Users\digit\Downloads\agibankblog\node_modules\codeceptjs\lib\scenario.js:92:14)
+                    at callFnAsync (C:\Users\digit\Downloads\agibankblog\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\digit\Downloads\agibankblog\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\digit\Downloads\agibankblog\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\Users\digit\Downloads\agibankblog\node_modules\mocha\lib\runner.js:789:12
+                    at next (C:\Users\digit\Downloads\agibankblog\node_modules\mocha\lib\runner.js:581:14)
+                    at C:\Users\digit\Downloads\agibankblog\node_modules\mocha\lib\runner.js:591:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1678816504118' status='failed' stop='1678816511535'>
+            <name>Pesquisar artigos sem texto</name>
+            <title>Pesquisar artigos sem texto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678816505684' status='passed' stop='1678816510530'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='cef1fd2b-94af-4102-9b60-43b2922c15c0-attachment.png' type='image/png' size='1494852'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1678816510531' status='failed' stop='1678816511535'>
+                    <name>search_page: clickSearch </name>
+                    <title>search_page: clickSearch </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678816510531' status='failed' stop='1678816511534'>
+                            <name>I click "#search-open"</name>
+                            <title>I click "#search-open"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: headless chrome=111.0.5563.65)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: headless chrome=111.0.5563.65)
+                    at Object.getErrorFromResponseBody (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\request.js:134:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (C:\Users\digit\Downloads\agibankblog\node_modules\@wdio\utils\build\shim.js:63:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

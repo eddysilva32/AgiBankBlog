@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1678818209741' stop='1678818233823'>
+    <name>Pesquisa de artigos:</name>
+    <title>Pesquisa de artigos:</title>
+    <test-cases>
+        <test-case start='1678818220958' status='failed' stop='1678818227707'>
+            <name>Pesquisar artigos com palavra-chave</name>
+            <title>Pesquisar artigos com palavra-chave</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678818222829' status='failed' stop='1678818227707'>
+                    <name>search_page: searchOpen </name>
+                    <title>search_page: searchOpen </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678818222829' status='passed' stop='1678818225817'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='51ab1b07-fed1-4da9-93eb-177e08c928ca-attachment.png' type='image/png' size='1580154'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1678818225818' status='passed' stop='1678818226705'>
+                            <name>I wait for element "#search-open", 5</name>
+                            <title>I wait for element "#search-open", 5</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait for element "#search-open", 5' source='00a07da0-ae35-4564-837e-6711dcb81b48-attachment.png' type='image/png' size='1672315'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1678818226706' status='failed' stop='1678818227706'>
+                            <name>I click "#search-open"</name>
+                            <title>I click "#search-open"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: headless chrome=111.0.5563.65)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: headless chrome=111.0.5563.65)
+                    at Object.getErrorFromResponseBody (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\request.js:134:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (C:\Users\digit\Downloads\agibankblog\node_modules\@wdio\utils\build\shim.js:63:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1678818227741' status='failed' stop='1678818233807'>
+            <name>Pesquisar artigos sem texto</name>
+            <title>Pesquisar artigos sem texto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678818230867' status='failed' stop='1678818233807'>
+                    <name>search_page: searchOpen </name>
+                    <title>search_page: searchOpen </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678818230867' status='passed' stop='1678818232789'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1678818232790' status='passed' stop='1678818232806'>
+                            <name>I wait for element "#search-open", 5</name>
+                            <title>I wait for element "#search-open", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1678818232806' status='failed' stop='1678818233807'>
+                            <name>I click "#search-open"</name>
+                            <title>I click "#search-open"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: headless chrome=111.0.5563.65)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: headless chrome=111.0.5563.65)
+                    at Object.getErrorFromResponseBody (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\request.js:134:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (C:\Users\digit\Downloads\agibankblog\node_modules\@wdio\utils\build\shim.js:63:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

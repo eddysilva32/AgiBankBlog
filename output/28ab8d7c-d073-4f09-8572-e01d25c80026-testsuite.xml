@@ -1,0 +1,146 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1678819066899' stop='1678819089806'>
+    <name>Pesquisa de artigos:</name>
+    <title>Pesquisa de artigos:</title>
+    <test-cases>
+        <test-case start='1678819075819' status='passed' stop='1678819082919'>
+            <name>Pesquisar artigos com palavra-chave</name>
+            <title>Pesquisar artigos com palavra-chave</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678819077435' status='passed' stop='1678819081014'>
+                    <name>search_page: searchOpen </name>
+                    <title>search_page: searchOpen </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678819077435' status='passed' stop='1678819080001'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='38c926d6-aefb-49cc-8905-3844475c59c9-attachment.png' type='image/png' size='157061'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1678819080002' status='passed' stop='1678819080466'>
+                            <name>I wait for element "#search-open", 5</name>
+                            <title>I wait for element "#search-open", 5</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait for element "#search-open", 5' source='31040e34-6dd0-4477-83ac-eaab4fbe7492-attachment.png' type='image/png' size='157061'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1678819080467' status='passed' stop='1678819081014'>
+                            <name>I click "#search-open"</name>
+                            <title>I click "#search-open"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#search-open"' source='47baae3e-b6e3-456e-9a76-bb670f85fdf6-attachment.png' type='image/png' size='159341'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678819081014' status='passed' stop='1678819081532'>
+                    <name>search_page: searchFor "Migração"</name>
+                    <title>search_page: searchFor "Migração"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678819081014' status='passed' stop='1678819081532'>
+                            <name>I fill field "[name="s"]", "Migração"</name>
+                            <title>I fill field "[name="s"]", "Migração"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "[name="s"]", "Migração"' source='9df00933-56de-446c-a44d-3b5bbf44f39f-attachment.png' type='image/png' size='159846'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678819081532' status='passed' stop='1678819082391'>
+                    <name>search_page: clickSearch </name>
+                    <title>search_page: clickSearch </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678819081532' status='passed' stop='1678819082391'>
+                            <name>I click "[type="submit"]"</name>
+                            <title>I click "[type="submit"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "[type="submit"]"' source='503e983b-edc7-49db-bf18-e1b45192aa1f-attachment.png' type='image/png' size='232163'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678819082391' status='passed' stop='1678819082919'>
+                    <name>I see "Migração"</name>
+                    <title>I see "Migração"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Migração"' source='1a65702c-2522-4fce-b94e-fbcdf46541f4-attachment.png' type='image/png' size='232163'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1678819083037' status='passed' stop='1678819089682'>
+            <name>Pesquisar artigos sem texto</name>
+            <title>Pesquisar artigos sem texto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678819084744' status='passed' stop='1678819088327'>
+                    <name>search_page: searchOpen </name>
+                    <title>search_page: searchOpen </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678819084745' status='passed' stop='1678819087342'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='7771c63b-bdc1-4849-9ba0-a964a4cd368b-attachment.png' type='image/png' size='157061'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1678819087342' status='passed' stop='1678819087827'>
+                            <name>I wait for element "#search-open", 5</name>
+                            <title>I wait for element "#search-open", 5</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait for element "#search-open", 5' source='bb56b521-f212-4faf-abb9-511b52c0ce8f-attachment.png' type='image/png' size='157061'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1678819087827' status='passed' stop='1678819088327'>
+                            <name>I click "#search-open"</name>
+                            <title>I click "#search-open"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#search-open"' source='656cb05f-ebc7-4394-842e-0191013cb0b8-attachment.png' type='image/png' size='159401'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1678819088327' status='passed' stop='1678819089682'>
+                    <name>search_page: clickSearch </name>
+                    <title>search_page: clickSearch </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678819088327' status='passed' stop='1678819089682'>
+                            <name>I click "[type="submit"]"</name>
+                            <title>I click "[type="submit"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "[type="submit"]"' source='ee1957e9-dcd5-48fa-8a99-8748f4155997-attachment.png' type='image/png' size='283352'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

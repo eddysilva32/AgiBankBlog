@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1678818049367' stop='1678818069690'>
+    <name>Pesquisa de artigos:</name>
+    <title>Pesquisa de artigos:</title>
+    <test-cases>
+        <test-case start='1678818057894' status='failed' stop='1678818063648'>
+            <name>Pesquisar artigos com palavra-chave</name>
+            <title>Pesquisar artigos com palavra-chave</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678818059776' status='failed' stop='1678818063647'>
+                    <name>search_page: searchOpen </name>
+                    <title>search_page: searchOpen </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678818059776' status='passed' stop='1678818062655'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='f8d28500-1cbd-41d6-b11f-ad640e7d4f46-attachment.png' type='image/png' size='1288427'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1678818062656' status='failed' stop='1678818063646'>
+                            <name>I click "#search-open"</name>
+                            <title>I click "#search-open"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: headless chrome=111.0.5563.65)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: headless chrome=111.0.5563.65)
+                    at Object.getErrorFromResponseBody (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\request.js:134:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (C:\Users\digit\Downloads\agibankblog\node_modules\@wdio\utils\build\shim.js:63:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1678818063672' status='failed' stop='1678818069673'>
+            <name>Pesquisar artigos sem texto</name>
+            <title>Pesquisar artigos sem texto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1678818066793' status='failed' stop='1678818069673'>
+                    <name>search_page: searchOpen </name>
+                    <title>search_page: searchOpen </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1678818066794' status='passed' stop='1678818068658'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1678818068659' status='failed' stop='1678818069673'>
+                            <name>I click "#search-open"</name>
+                            <title>I click "#search-open"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: headless chrome=111.0.5563.65)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: headless chrome=111.0.5563.65)
+                    at Object.getErrorFromResponseBody (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\digit\Downloads\agibankblog\node_modules\webdriver\build\request.js:134:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (C:\Users\digit\Downloads\agibankblog\node_modules\@wdio\utils\build\shim.js:63:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
